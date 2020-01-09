@@ -841,7 +841,7 @@ local Banned_models = {
 
 for k, v in pairs(Banned_models) do
   BanProp(v)
-  if DEBUG == true then
-    print(v)
+  if DEBUG then
+    print("[Banning Prop]: "..v)
   end
 end
